@@ -64,7 +64,6 @@ main {
 h1 {
     font-weight: 700;
     color: hsl(0, 0%, 100%);
-    /* font-size: 20px; */
 }
 
 h1:hover {
@@ -76,7 +75,6 @@ p {
     color: hsl(215, 51%, 70%);
     line-height: 25px;
     font-weight: 400;
-    /* font-size: 14px; */
 }
 
 .clock {
@@ -92,7 +90,6 @@ p {
 .ETH {
     color: hsl(178, 100%, 50%);
     margin-right: 10px;
-    /* font-size: 15px; */
 }
 
 .avatar img {
@@ -111,7 +108,7 @@ span {
     display: flex;
     align-items: center;
     color: hsl(215, 51%, 70%);
-    /* font-size: 14px; */
+    font-size: 14px;
 }
 
 .jules {
@@ -122,4 +119,37 @@ span {
 .jules:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
+}
+
+@media(max-width:350px) {
+    .inner {
+        width: 205px;
+        height: 447px;
+        padding: 21px;
+    }
+    .eqblm {
+        height: 13em;
+    }
+    h1 {
+        font-size: 16px;
+    }
+    p {
+        font-size: medium;
+    }
+    .ETH {
+        font-size: 13px;
+    }
+    .clock img {
+        margin-right: 5px;
+    }
+    span {
+        font-size: 14px;
+    }
+    .avatar img {
+        width: 33px;
+        margin-right: 10px;
+    }
+    .jules {
+        margin-left: 5px;
+    }
 }
