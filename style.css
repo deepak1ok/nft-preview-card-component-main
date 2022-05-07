@@ -27,28 +27,41 @@ main {
 
 .inner {
     background-color: hsl(216, 50%, 16%);
-    width: 255px;
+    width: 223px;
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 1px 1px hsl(216, 50%, 16%);
-    height: 475px;
+    box-shadow: 1px 1px 5px hsl(216, 50%, 16%);
+    height: 440px;
 }
 
-.image img {
+.eqblm {
     display: flex;
     justify-content: center;
-    height: 16em;
+    height: 14em;
     border-radius: 10px;
-    /* z-index: 1; */
 }
 
-.image img:hover {
-    /* background-color: hsl(178, 100%, 50%); */
-    /* background-repeat: no-repeat; */
+.inner-image {
+    position: relative;
+}
+
+.eye {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: hsla(178, 100%, 50%, 0.5) url("images/icon-view.svg") no-repeat center;
+}
+
+.inner-image:hover .eye {
+    cursor: pointer;
+    display: block;
 }
 
 h2 {
-    /* font-family: 'Outfit', sans-serif; */
     font-weight: 700;
     color: hsl(0, 0%, 100%);
     font-size: 20px;
@@ -63,7 +76,7 @@ p {
     color: hsl(215, 51%, 70%);
     line-height: 25px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .clock {
@@ -98,7 +111,7 @@ span {
     display: flex;
     align-items: center;
     color: hsl(215, 51%, 70%);
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .jules {
@@ -110,44 +123,3 @@ span {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
-
-@media(max-width:280px) {
-    .inner {
-        width: 205px;
-        height: 447px;
-        padding: 21px;
-    }
-    .image img {
-        height: 13.100000000000001em;
-    }
-    h2 {
-        font-size: larger;
-    }
-    p {
-        font-size: medium;
-    }
-    .ETH {
-        font-size: 13px;
-    }
-    .clock img {
-        margin-right: 5px;
-    }
-    span {
-        font-size: 14px;
-    }
-    .avatar img {
-        width: 33px;
-        margin-right: 12px;
-    }
-    .jules {
-        margin-left: 5px;
-    }
-}
-
-
-/* - Very dark blue (main BG): hsl(217, 54%, 11%)
-- Very dark blue (card BG): hsl(216, 50%, 16%)
-- Very dark blue (line): hsl(215, 32%, 27%)
-- White: hsl(0, 0%, 100%)
-- Soft blue: hsl(215, 51%, 70%)
-- Cyan: hsl(178, 100%, 50%) */
