@@ -31,8 +31,8 @@
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/deepak1ok/nft-preview-card-component-main.git)
+- Live Site URL: [live site URL](https://nft-preview-card-deepak.netlify.app)
 
 ## My process
 
