@@ -27,17 +27,17 @@ main {
 
 .inner {
     background-color: hsl(216, 50%, 16%);
-    width: 223px;
+    width: 270px;
     border-radius: 15px;
     padding: 20px;
     box-shadow: 1px 1px 5px hsl(216, 50%, 16%);
-    height: 440px;
+    height: 505px;
 }
 
 .eqblm {
     display: flex;
     justify-content: center;
-    height: 14em;
+    height: 17em;
     border-radius: 10px;
 }
 
@@ -64,7 +64,7 @@ main {
 h2 {
     font-weight: 700;
     color: hsl(0, 0%, 100%);
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 h2:hover {
@@ -76,7 +76,7 @@ p {
     color: hsl(215, 51%, 70%);
     line-height: 25px;
     font-weight: 400;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .clock {
@@ -92,7 +92,7 @@ p {
 .ETH {
     color: hsl(178, 100%, 50%);
     margin-right: 10px;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
 .avatar img {
@@ -111,7 +111,7 @@ span {
     display: flex;
     align-items: center;
     color: hsl(215, 51%, 70%);
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .jules {
