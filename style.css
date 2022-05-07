@@ -61,13 +61,13 @@ main {
     display: block;
 }
 
-h2 {
+h1 {
     font-weight: 700;
     color: hsl(0, 0%, 100%);
     /* font-size: 20px; */
 }
 
-h2:hover {
+h1:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
