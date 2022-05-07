@@ -24,7 +24,7 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/desktop-design.jpg)
 
 
 
@@ -45,18 +45,10 @@
 
 
 
-### What I learned
-
-
-
-### Useful resources
-
-
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@deepak1ok](https://www.frontendmentor.io/profile/deepak1ok)
 - Twitter - [@deepak1ok](https://www.twitter.com/deepak10460)
 
